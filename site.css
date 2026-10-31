@@ -1,0 +1,59 @@
+body {
+    background-color: #f7faf7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.paws-navbar {
+    background-color: #2e7d57;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2e7d57, #56b886);
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.pet-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-3px);
+}
+
+.pet-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pet-emoji {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: #e6f4ec;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pet-emoji-big {
+    height: 320px;
+    font-size: 9rem;
+    border-radius: 1rem;
+}
+
+.table {
+    background-color: #fff;
+}
